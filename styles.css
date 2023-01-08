@@ -1,0 +1,168 @@
+/* global settings */
+body {
+  font-family: "Montserrat-Black", sans-serif;
+  text-align: center;
+}
+#title {
+  background: linear-gradient(45deg, rgb(220, 122, 30), rgb(73, 210, 217));
+  
+}
+/* navigation bar */
+.navbar {
+  padding-bottom: 10px;
+}
+.navbar-brand {
+  font-family: "ubuntu", sans-serif;
+  font-size: 30px;
+  font-weight: bold;
+}
+.nav-item {
+  padding: 0 40px 0 40px;
+}
+.nav-link {
+  font-family: cursive;
+  font-size: 20px;
+}
+
+/* header */
+.container-fluid {
+  padding: 4% 15% 6% 15%;
+}
+#col-1 {
+  text-align: left;
+}
+#col-2{
+  text-align: left;
+}
+h1 {
+  font-size: 3rem;
+  font-weight: bold;
+  line-height: 1.5;
+}
+#intro {
+  margin-bottom: 60px;
+  color: #fff;
+}
+
+.phone {
+  
+  transform: rotate(25deg);
+  position: absolute;
+  
+}
+.row {
+  margin-top: 5%;
+  text-align: center;
+}
+/* feature section */
+#features {
+  background-color: #fff;
+  position: relative;
+  line-height: 2;
+  
+}
+h3 {
+  font-weight: bold;
+}
+.features {
+  color: #ef8172;
+  font-size: 2.3rem;
+}
+.features:hover {
+  color: #ff4c68;
+}
+
+/* testimonial section */
+#testimonials {
+ position: relative;
+  background-color: #ef8172;
+  color: #fff;
+}
+.carousel-item{
+    padding: 5% 15%;
+}
+h2 {
+  font-family: "Montserrat-Bold",sans-serif;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+.testimonial-image {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+  margin-bottom: 60px;
+}
+
+/* press section */
+
+#press {
+  background-color: #ef8172;
+  text-align: center;
+  padding: 3% 0px 5% 0px;
+}
+.press-logo {
+    padding: 0 10px 0 10px;
+}
+
+/* pricing section */
+#pricing{
+  margin-top: 30px;
+}
+.pricing-col{
+  padding: 1%;
+}
+.container{
+  margin: 20px auto 40px auto;
+}
+
+
+/* call to action */
+#cta{
+  background-color: #ff4c68;
+  padding: 4% 15% 6% 15%;
+}
+#cta-header{
+  color: #fff;
+  font-size: 3rem;
+  font-family: 'Montserrat',sans-serif;
+  font-weight: bolder;
+  line-height: 1.5;
+  margin-bottom: 4%;
+}
+
+/* footer section */
+#footer{
+  padding: 6% 15% 6% 15%; 
+  
+}
+.social{
+  margin-bottom: 5%;
+}
+
+.icon{
+  padding: 8px;
+}
+
+/* smartphone and tablet media fire */
+@media (max-width: 1000px) {
+  h1{
+    text-align: center;
+  }
+  #col-1{
+    text-align: center;
+  }
+  #col-2{
+    margin-top: 40px;
+    text-align: center;
+  }
+  .phone {
+    position: static;
+    transform: rotate(0deg);
+  }
+  #feature{
+    position: static;
+  }
+  .container-fluid{
+    padding: 4% 0% 6% 0%;
+  }
+}
