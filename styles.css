@@ -142,7 +142,16 @@ h2 {
 .icon{
   padding: 8px;
 }
+/* promotion */
+.me {
+  background: linear-gradient(36deg, rgb(236, 80, 80), #fff, rgb(236, 80, 80));
+}
+.me a {
+  
 
+  font-weight: bold;
+  text-decoration: none;
+}
 /* smartphone and tablet media fire */
 @media (max-width: 1000px) {
   h1{
