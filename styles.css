@@ -147,7 +147,7 @@ h2 {
   font-size: 25px;
 }
 #tindog {
-  background: linear-gradient(45deg, rgb(220, 122, 30), rgb(73, 210, 217));
+  font-weight:bold;
 
   border-radius: 7%;
 }
