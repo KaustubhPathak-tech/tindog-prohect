@@ -66,7 +66,7 @@ h3 {
 }
 .features {
   color: #ef8172;
-  font-size: 2.3rem;
+  font-size: 3.8rem;
 }
 .features:hover {
   color: #ff4c68;
@@ -164,6 +164,7 @@ h2 {
 /* smartphone and tablet media fire */
 @media (max-width: 1000px) {
   h1{
+    font-size: 34px;
     text-align: center;
   }
   #col-1{
@@ -174,13 +175,42 @@ h2 {
     text-align: center;
   }
   .phone {
+    width: 70%;
     position: static;
     transform: rotate(0deg);
   }
   #feature{
     position: static;
   }
+  .features {
+    color: #ef8172;
+    font-size: 2rem;                /*up*/
+  }
+  h2{                                                                                 /*up*/
+    font-family: "Montserrat-Bold", sans-serif;
+    font-size: 1.5rem;
+    line-height: 1.4;
+  }
   .container-fluid{
     padding: 4% 0% 6% 0%;
+  }
+  #price{
+    margin: 2% 15%;                                         /*up*/
+  }
+  .pricing-col {
+    padding: 4%;                                            /*up*/
+  }
+  .container {
+    margin: 40px auto 40px auto;                              /*up*/
+  }
+   #cta-header {                                               /*up*/
+    
+    font-size: 1.5rem;
+    
+    line-height: 1;
+    margin-bottom: 12%;
+  }
+  #footer p {                                                 /*up*/
+    font-size: 16px;
   }
 }
