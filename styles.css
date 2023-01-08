@@ -140,7 +140,16 @@ h2 {
 }
 
 .icon{
+  font-size:23px;
   padding: 8px;
+}
+#footer p {
+  font-size: 25px;
+}
+#tindog {
+  background: linear-gradient(45deg, rgb(220, 122, 30), rgb(73, 210, 217));
+
+  border-radius: 7%;
 }
 /* promotion */
 .me {
